@@ -1,0 +1,39 @@
+.navbar{
+    margin: -10 0 0 -10;
+    width: 1560px;
+    height:80px;
+    border: solid 1px;
+}
+.container{
+    float: left;
+    width: 242px;
+    height: 720px;
+}
+.menu{
+    margin: 34px 0px 34px 29px;
+    width: 18px;
+    height: 12px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.logo{
+    margin: 25px 0px 25px 25px ;
+    width: 142px;
+    height: 30px;
+}
+.searchicon{
+    margin: 32px 15px 33px 77px;
+    width: 16px;
+    height: 16px;
+}
+.search{
+    margin-left: 15px;
+    padding: 28px 0px 31px 0;
+    width: 49px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
