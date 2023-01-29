@@ -1,0 +1,700 @@
+.navbar{
+    margin: -10 0 0 -10;
+    width: 1560px;
+    height:80px;
+}
+
+.menu{
+    margin: 34px 0px 34px 29px;
+    width: 18px;
+    height: 12px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.logo{
+    margin: 25px 0px 25px 25px ;
+    width: 142px;
+    height: 30px;
+}
+.search{
+    margin-left: 77px;
+    padding: 32px 0 33px 0;
+    max-width: 16px;
+    max-height: 16px;
+    clear: right;
+}
+.searchText{
+    padding: 20px 0 30px 0px;
+    font: normal normal normal 16px/21px Roboto;
+    width: 49px;
+    height: 21px;
+    left:326px;
+    top:20px;
+    position: absolute;
+}
+.notification{
+    margin-left: 924px;
+    padding: 28px 0 30px 0;
+}
+.profile{
+    margin-left: 52px;
+    padding: 18px 0 18px 0;
+
+}
+.profileText{
+    position: absolute;
+    font: normal normal normal 16px/21px Roboto;
+    top: 15px;
+    left: 1390px;
+    padding: 28px 0 30px 0px; 
+}
+.down{
+    position: absolute;
+    top: 5px;
+    left: 1460px;
+    padding: 38px 0 37px 0;
+}
+.container{
+    float: left;
+    width: 242px;
+    height: 1890px;
+}
+.selectOption{
+    width: 183px;
+    height: 43px;
+    margin-left: 30px;
+    margin-top: 25px;
+    background: #FFF3F4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+.img_dashboard{
+    padding: 14px 0 14px 18px;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+}
+.dashboard{
+    padding: 10px 0 12px 0px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+    opacity: 1;
+}
+.option{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    margin-top: 130px;
+    gap: 12px;
+}
+
+.analysisicon{
+    width: 19px;
+    height: 18px;
+    padding:37px 0 0px 46px;
+    opacity: 1;
+}
+.analysis{
+    margin: 32px 0 0 11px;
+    width: 60px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.mail{
+    width: 15px;
+    height: 15px;
+    padding:37px 0 0px 46px;
+    opacity: 1;
+}
+
+.inbox{
+    margin: 32px 0 0 13px;
+    width: 39px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.history{
+    width: 16px;
+    height: 16px;
+    padding:37px 0 0px 47px;
+    opacity: 1;
+
+}
+.clock{
+    margin: 32px 0 0 12px;
+    width: 51px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.users{
+    width: 18px;
+    height: 18px;
+    padding:37px 0 0px 46px;
+    opacity: 1;
+}
+.user{
+    margin: 32px 0 0 12px;
+    width: 41px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.maintenance{
+    width: 18px;
+    height: 18px;
+    padding:36px 0 0px 47px;
+    opacity: 1;
+}
+.maintainance{
+    margin: 32px 0 0 12px ;
+    width: 92px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.settings{
+    width: 18px;
+    height: 18px;
+    padding:36px 0 0px 47px;
+    opacity: 1;
+}
+.setting{
+    margin: 32px 0 0 12px ;
+    width: 50px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+.dashboardside{
+    width: 1318px;
+    height: 1890px;
+    background: #fafafa 0% 0% no-repeat padding-box;
+    margin-top: 15px;
+    margin-left: 242px;
+}
+
+.dashText{
+    padding-top: 41px;
+    margin: 0px 0 0 48px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 146px;
+    height: 39px;
+    text-align: left;
+    color: #000000;
+    opacity: 1;
+}
+.workspace{
+    margin-top: 23px;
+    position: absolute;
+    top: 182px;
+    left: 292px;
+    width: 1218px;
+    height: 1749px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.oneColumn{
+    padding: 23px 0 0 29px;
+    width: 121px;
+    height: 29px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.txtname{
+    margin: 15px 0 0 31px;
+    width: 1157px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.dropdown{
+    margin: 15px 0 0 31px;
+    width: 1157px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+    padding-left: 15px;
+}
+.textarea{
+    margin: 15px 0 0 31px;
+    width: 1157px;
+    height: 130px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.twoColumn{
+    margin: 45px 0 0 31px;
+    font-size: 22px;
+    width: 123px;
+    height: 29px;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.username{
+    margin-right: 80px;
+    padding-left: 50px ;
+    padding-top: 0px;
+}
+.txtnm{
+    margin: 16px 0 0 31px;
+    width: 560px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.password{
+    margin: 20px 0 0 31px;
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.drop{
+    margin: 20px 0 0 31px;
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+    padding-left: 15px;
+}
+.threecolumn{
+    margin: 45px 0 0 31px;
+    font-size: 22px;
+    width: 138px;
+    height: 29px;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.three1{
+    margin: 18px 0 0 25px;
+    width: 364px;
+    height: 47px;
+    border: 1px solid #C8242F;
+    border-radius: 5px;
+    opacity: 1;
+}
+.three2{
+    margin: 18px 0 0 25px;
+    width: 365px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.three3{
+    margin: 18px 0 0 25px;
+    width: 365px;
+    height: 47px;
+    border: 1px dashed #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.forth{
+    margin: 48px 0 0 30px;
+    font-size: 22px;
+    width: 126px;
+    height: 29px;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.one{
+    margin: 20px 0 0 25px;
+    width: 266px;
+    height: 47px;
+    border: 1px solid #FF3C3C;
+    border-radius: 5px;
+    opacity: 1;
+}
+.two{
+    margin: 20px 0 0 25px;
+    width: 266px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.three{
+    margin: 20px 0 0 25px;
+    width: 266px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+}
+.four{
+    margin: 20px 0 0 25px;
+    width: 266px;
+    width: 266px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    opacity: 1;
+    padding-left: 15px;
+}   
+.valid1{
+    margin: 10px 0 0 47px;
+    font-size: 12px;
+    width: 84px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #FF3B3B;
+    opacity: 1;
+}
+.valid2{
+    margin: 9px 0 0 211px;
+    width: 158px;
+    height: 16px;
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    opacity: 1;
+}
+.other{
+    margin: 43px 0 0 30px;
+    font-size: 22px;
+    width: 225px;
+    height: 29px;
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.upload{
+    font-size: 18px;
+    margin: 21px 0 0 30px;
+    width: 90px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.uploadbtn{
+    font-size: 16px;
+    background-color: #FFFFFF;
+    margin: 16px 0 0 30px;
+    width: 124px;
+    height: 36px;
+    border: 1px solid #C8242F;
+    border-radius: 18px;
+    opacity: 1;
+}
+.uploadtext{
+    margin-left: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #C8242F;
+}
+.img1{
+    width: 17px;
+}
+.selectItem{
+    margin-left: 20px;
+}
+.space{
+    margin-left: 43px;
+    width: 15px;
+    height: 15px;
+
+}
+.radioText{
+    margin: 36px 0 0 30px;
+    font-size: 18px;
+    width: 104px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.radio1{
+    margin: 15px 10px 0 31px;
+    width: 15px;
+    height: 15px;
+    background: #ADADAD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+input[type=radio]#red{
+    accent-color: #C8242F;
+}
+input[type=checkbox]#red{
+    accent-color: #C8242F;
+}
+.cb2{
+    margin-left: 40px;
+    width: 16px;
+    height: 16px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.cb1{
+    width: 16px;
+    height: 16px;   
+    opacity: 1;
+}
+.chbox{
+    margin: 33px 0 0 30px;
+    font-size: 18px;
+    width: 79px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.cbgroup{
+    margin: 15px 0 0 30px;
+}
+.icon{
+    top: 10px;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    margin: 10px 0 0 20px;
+}
+.snacktext{
+    margin: 35px 0 0 29px;
+    font-size: 18px;
+    width: 76px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.errortext{ 
+    bottom: 12px;
+    left: 60px;
+    height: 25px;
+    margin-left: 10px;
+    color: #FF3535;
+}
+.infotext{ 
+    top: 12px;
+    left: 60px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #00B9E1;
+}
+.warningtext{ 
+    top: 12px;
+    left: 60px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 10px;
+    color: #FFA800;
+}
+.successtext{ 
+    top: 12px;
+    left: 60px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 10px;
+    color: #00AF27;
+}
+.error_snackbar{
+    margin: 16px 0 0 27px;
+    width: 563px;
+    height: 44px;
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    opacity: 1;
+}
+.info_snackbar{
+    margin: -45px 0 0 624px;
+    width: 563px;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    opacity: 1;
+}
+.warning_snackbar{
+    margin: 16px 0 0 29px;
+    width: 563px;
+    height: 44px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    opacity: 1;
+}
+.success_snackbar{
+    margin: -45px 0 0 624px;
+    width: 563px;
+    height: 44px;
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    opacity: 1;
+}
+.call{
+    margin: 34px 0 0 29px;
+    font-size: 18px;
+    width: 106px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.btn1{
+    margin: 15px 0 0 30px;
+}
+.primary{
+    width: 124px;
+    height: 45px;
+    color: white;
+    background-color: #C8242F;
+    text-decoration: none;
+    border-radius: 23px;
+    font-size: 18px;
+    border: 0px;
+    opacity: 1;
+}
+.secondary{
+    margin-left: 21px;
+    background-color: white;
+    border: 1px solid #FF3535;
+    font-size: 18px;
+    color: #C8242F;
+    width: 145px;
+    height: 44px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    opacity: 1;
+}
+.tabs{
+    margin: 34px 0 0 30px;
+    width: 39px;
+    height: 24px;
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+.tab{
+    margin-top: 22px;
+
+}
+.tab1{
+    margin: 22px 0 0 45px;
+    width: 37px;
+    height: 20px;
+    text-align: left;
+    font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+    opacity: 1;
+
+}
+.tab2{
+    margin: 22px 0 0 36px;
+    width: 37px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    opacity: 1;
+}
+.tab3{
+    margin: 22px 0 0 39px;
+    width: 37px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #ADADAD;
+    opacity: 1;
+}
+.hr{
+    margin-top: -10px ;
+    margin-left: 29px;
+    margin-right: 33px;
+    width: 69px;
+    height: 0px;
+    border: 2px solid #C8242F;
+    opacity: 1;
+}
+.horizontal{
+    margin-left: 29px;
+    margin-right: 33px;
+}
+.random{
+    margin: 18px 0 0px 30px;
+    width: 1119px;
+    height: 68px;
+    text-align: left;
+    font: normal normal normal 15px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+::placeholder{
+    padding: 15px 0 0 15px;
+    width: 100px;
+    height: 20px;
+}

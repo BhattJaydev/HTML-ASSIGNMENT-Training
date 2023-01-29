@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+    <link rel="stylesheet" href="./css/analysis.css">  
+
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./images/menu-bar.svg" alt="Menu" class="menu">
+        <img src="./images/logo.svg" alt="Logo" class="logo">  
+        <img src="./images/search-icon.svg" alt="Search" class="search">
+        <span class="searchText">Search</span>
+        <img src="./images/notification-icon.svg" alt="notification" class="notification">
+        <img src="./images/profile.png" alt="Profile" class="profile">
+        <span class="profileText">John Doe</span> 
+        <img src="./images/downward-arrow.svg" alt="down" class="down">
+    </nav>
+
+    <div class="container">
+        <aside>
+            <img src="./images/dashboard-active.svg" alt="dashboard" class="analysisicon">
+            <span class="analysis">Dashboard</span><br>
+
+            <div class="selectOption">
+                <img src="./images/graph-default.svg" alt="Analysis" class="img_dashboard">
+                <span class="dashboard">Analysis</span>
+            </div>
+
+            <img src="./images/inbox-default.svg" alt="inbox" class="mail">
+            <span class="inbox">Inbox</span><br>
+
+            <img src="./images/clock-default.svg" alt="History" class="history">
+            <span class="clock">History</span><br>
+
+            <img src="./images/user-default.svg" alt="users" class="users">
+            <span class="user">Users</span><br>
+
+            <img src="./images/maintenance-default.svg" alt="maintainance" class="maintenance">
+            <span class="maintainance">Maintenence</span><br>
+
+            <img src="./images/setting-default.svg" alt="setting" class="settings">
+            <span class="setting">Setting</span>
+        </aside>
+    </div>
+
+    <div class="dashboardside">
+        <div class="dashText">Analysis</div>
+        <div class="workspace">
+            <div class="oneColumn">One Column</div>
+            <input type="text" class="txtname" placeholder="Name">
+            <select name="dropmenu" id="column" class="dropdown" placeholder="Dropdown">
+                <option value="Dropdown" class="placeholder">Dropdown</option>
+                <option value="1">Dropdown 1</option>
+                <option value="2">Dropdown 2</option>
+                <option value="3">Dropdown 3</option>
+            </select>
+            <textarea name="textArea" id="TextArea" placeholder="Multiple Line" class="textarea"></textarea>
+            <div class="twoColumn">Two Column</div>
+            <div>
+                <input type="text" name="" id="" placeholder="Name" class="txtnm"> 
+                <input type="text" name="" id="name" placeholder="Johndoe" class="txtnm">                 
+                <input type="password" name="" id="" placeholder="Password" class="password">
+                <select name="dropmenu" id="column" class="drop" placeholder="Dropdown">
+                    <option value="Dropdown" class="placeholder">Dropdown</option>
+                    <option value="1">Dropdown 1</option>
+                    <option value="2">Dropdown 2</option>
+                    <option value="3">Dropdown 3</option>
+                </select>
+            </div>
+            <div class="threecolumn">Three Column</div>
+            <div>
+                <input type="text" class="three1">
+                <input type="password" class="three2" placeholder="• • • • • • • • • ">
+                <input type="text" class="three3">
+            </div>
+
+            <div class="forth">Four Column</div>
+            <div>
+                <input type="text" class="one">                  
+                <input type="text" class="two">
+                <input type="text" class="three">
+                <select name="dropmenu" id="column" class="four" placeholder="Dropdown">
+                    <option value="Dropdown" class="drop4">Dropdown</option>
+                    <option value="1">Dropdown 1</option>
+                    <option value="2">Dropdown 2</option>
+                    <option value="3">Dropdown 3</option>
+                </select>
+                <label for="" class="valid1">Enter valid data</label>
+                <label for="" class="valid2">Enter your full name as per ID</label>
+            </div>
+
+            <div class="other">Other Design Elements</div>
+            <div class="upload">File Upload</div>
+            <div>
+                <button class="uploadbtn"><img src="./images/cloud-upload-icon.svg" alt="" class="img1"><span class="uploadtext">Upload</span></button>
+                <span class="selectItem">No Item Selected</span>
+            </div>
+
+            <div>
+                <div class="radioText">Radio Button</div>
+                <div>
+                    <form action="#">
+                        <input type="radio" id="red" name="opt" value="Option 1" class="radio1">
+                        <label for="html">Option 1</label>
+                        <input type="radio" id="red" name="opt" value="Option 2" class="space" checked>
+                        <label for="css">Option 2</label><br>
+                    </form>
+                </div>
+            </div> 
+            
+            <div>
+                <div class="chbox">Checkbox</div>
+                <div class="cbgroup">
+                    <form action="">
+                        <input type="checkbox" name="cbox" id="red" class="cb1">
+                        <label for="" class="opt1">Option 1</label>
+                        <input type="checkbox" name="cbox" id="red" class="cb2" checked>
+                        <label for="">Option 2</label>
+                    </form>
+                </div>
+            </div>
+
+            <div class="snacktext">Snackbar</div>
+            <div class="error_snackbar">
+                <img src="./images/error-icon.svg" alt="error" class="icon">
+                <span class="errortext">This is an error message</span>
+            </div>
+        
+            <div class="info_snackbar">
+                <img src="./images/info-icon.svg" alt="error" class="icon">
+                <span class="infotext">This is an Information message!</span>
+            </div>
+
+            <div class="warning_snackbar">
+                <img src="./images/warning-icon.svg" alt="error" class="icon">
+                <span class="warningtext">This is a warning message!</span>
+            </div>
+    
+            <div class="success_snackbar">
+                <img src="./images/success-icon.svg" alt="error" class="icon">
+                <span class="successtext">This is success message</span>
+            </div> 
+
+            <div class="call">Call to action</div>
+            <div class="btn1">
+                <div>
+                    <button class="primary">Primary</button>
+                    <button class="secondary">Secondary</button>
+                </div>
+            </div>
+
+            <div class="tabs">Tabs</div>
+            <div class="tab">
+                <span class="tab1">Tab 1</span>
+                <span class="tab2">Tab 2</span>
+                <span class="tab3">Tab 3</span>
+                <div class="horizontal">
+                    <hr>
+                </div>
+                <span>
+                    <hr class="hr">
+                </span>  
+            </div>
+
+            <div class="random">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
