@@ -602,6 +602,9 @@ table,th,td{
     .selectOption{
         width: 60px;
         height: 43px;
+        margin-left: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
     }
     .dashboardside{
         margin-top: 15px;
@@ -635,15 +638,13 @@ table,th,td{
         align-items: center;
         justify-content: center;
         width: 800px;
-    height: 400px;
-    border-radius: 5px;
-    padding-top: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    gap: 30px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    
-    
+        height: 400px;
+        border-radius: 5px;
+        padding-top: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        gap: 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
     }
     .data__graph{
         width: 800px;
@@ -677,5 +678,41 @@ table,th,td{
         align-items: center;
         justify-content: center;
         padding-left: 189px;
+    }
+    .analysisicon{
+        width: 30px;
+        height: 30px;
+        padding:37px 0 0px 35px;
+    }
+    .mail{
+        width: 30px;
+        height: 30px;
+        padding:37px 0 0px 35px;
+    }
+    .history{
+        width: 30px;
+        height: 30px;
+        padding:37px 0 0px 35px;
+    }
+    .users{
+        width: 30px;
+        height: 30px;
+        padding:37px 0 0px 35px;
+    }
+    .maintenance{
+        width: 30px;
+        height: 30px;
+        padding:36px 0 0px 35px;
+    }
+    .settings{
+        width: 30px;
+        height: 30px;
+        padding:36px 0 0px 35px;
+    }
+    .img_dashboard{
+        padding: 14px 0 14px 5px;
+        width: 30px;
+        height: 30px;
+
     }
 }
