@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar1">
         <img src="./images/menu-bar.svg" alt="Menu" class="menu">
         <img src="./images/logo.svg" alt="Logo" class="logo">  
         <img src="./images/search-icon.svg" alt="Search" class="search">
@@ -19,7 +19,7 @@
         <img src="./images/downward-arrow.svg" alt="down" class="down">
     </nav>
 
-    <div class="container">
+    <div class="container1">
         <aside>
             <img src="./images/dashboard-active.svg" alt="dashboard" class="analysisicon">
             <span class="analysis">Dashboard</span><br>
@@ -51,7 +51,7 @@
         <div class="workspace">
             <div class="oneColumn">One Column</div>
             <input type="text" class="txtname" placeholder="Name">
-            <select name="dropmenu" id="column" class="dropdown" placeholder="Dropdown">
+            <select name="dropmenu" id="column" class="dropdown">
                 <option value="Dropdown" class="placeholder">Dropdown</option>
                 <option value="1">Dropdown 1</option>
                 <option value="2">Dropdown 2</option>
@@ -60,10 +60,10 @@
             <textarea name="textArea" id="TextArea" placeholder="Multiple Line" class="textarea"></textarea>
             <div class="twoColumn">Two Column</div>
             <div>
-                <input type="text" name="" id="" placeholder="Name" class="txtnm"> 
-                <input type="text" name="" id="name" placeholder="Johndoe" class="txtnm">                 
-                <input type="password" name="" id="" placeholder="Password" class="password">
-                <select name="dropmenu" id="column" class="drop" placeholder="Dropdown">
+                <input type="text" placeholder="Name" class="txtnm"> 
+                <input type="text" placeholder="Johndoe" class="txtnm" id="uname1">                 
+                <input type="password" placeholder="Password" class="password">
+                <select name="dropmenu" class="drop" placeholder="Dropdown">
                     <option value="Dropdown" class="placeholder">Dropdown</option>
                     <option value="1">Dropdown 1</option>
                     <option value="2">Dropdown 2</option>
@@ -72,18 +72,18 @@
             </div>
             <div class="threecolumn">Three Column</div>
             <div>
-                <input type="text" class="three1">
+                <input type="text" class="three1" autofocus>
                 <input type="password" class="three2" placeholder="• • • • • • • • • ">
-                <input type="text" class="three3">
+                <input type="text" class="three3" placeholder="johndoe">
             </div>
 
             <div class="forth">Four Column</div>
             <div>
-                <input type="text" class="one">                  
-                <input type="text" class="two">
-                <input type="text" class="three">
-                <select name="dropmenu" id="column" class="four" placeholder="Dropdown">
-                    <option value="Dropdown" class="drop4">Dropdown</option>
+                <input type="text" class="one" placeholder="UI Designer">                  
+                <input type="text" class="two" placeholder="Name">
+                <input type="text" class="three" placeholder="JohnDoe">
+                <select name="dropmenu" id="column" class="four">
+                    <option value="Dropdown" class="drop4">select</option>
                     <option value="1">Dropdown 1</option>
                     <option value="2">Dropdown 2</option>
                     <option value="3">Dropdown 3</option>
@@ -103,9 +103,9 @@
                 <div class="radioText">Radio Button</div>
                 <div>
                     <form action="#">
-                        <input type="radio" id="red" name="opt" value="Option 1" class="radio1">
+                        <input type="radio" name="opt" value="Option 1" class="radio1" id="redr1">
                         <label for="html">Option 1</label>
-                        <input type="radio" id="red" name="opt" value="Option 2" class="space" checked>
+                        <input type="radio" name="opt" value="Option 2" class="space" checked id="redr2">
                         <label for="css">Option 2</label><br>
                     </form>
                 </div>
@@ -114,10 +114,10 @@
             <div>
                 <div class="chbox">Checkbox</div>
                 <div class="cbgroup">
-                    <form action="">
-                        <input type="checkbox" name="cbox" id="red" class="cb1">
+                    <form action="#">
+                        <input type="checkbox" name="cbox" class="cb1" id="redcb1">
                         <label for="" class="opt1">Option 1</label>
-                        <input type="checkbox" name="cbox" id="red" class="cb2" checked>
+                        <input type="checkbox" name="cbox" class="cb2" checked id="redcb2">
                         <label for="">Option 2</label>
                     </form>
                 </div>
