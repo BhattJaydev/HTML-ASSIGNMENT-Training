@@ -100,11 +100,11 @@
         background: #FAFAFA 0% 0% no-repeat padding-box; 
     }
     .left {
-        margin: 25px 0px 15px 100px;       
+        margin: 50px 0px 15px 130px;       
     }
     .right{
         padding: 20px;
-        margin-left: 120px;              
+        margin-left: 200px;              
     }
     ::placeholder{
         padding: 15px 0 15px 15px;
