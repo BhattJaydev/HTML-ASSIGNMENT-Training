@@ -284,8 +284,7 @@ input[type="checkbox"]:checked {
 }
 
 
-.sidebar-text-hidden,
-.sidebar-company-logo-hidden {
+.sidebar-text-hidden, .sidebar-company-logo-hidden {
     display: none;
 }
 
