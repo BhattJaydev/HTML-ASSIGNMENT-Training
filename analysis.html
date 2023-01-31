@@ -17,7 +17,7 @@
                     <i class=" icon icon-toggle" id="toggle-button">
                     </i>
                     <div class="toggle-elements sidebar-company-logo ms-4" id="company-logo"><img
-                            src="../images/header-logo.svg" class="company-logo-img "></div>
+                            src="./images/header-logo.svg" class="company-logo-img "></div>
                 </div>
                 <div class="d-flex justify-content-start align-items-center sidebar-item"
                     onclick="window.location.href = '/dashboard.html'">
@@ -72,7 +72,7 @@
                             <i class="header-icon icon-notification"></i>
                         </div>
                         <div class="col-auto d-flex justify-content-end align-items-center p-0">
-                            <img src="../images/profile.png" class="header-icon icon-profile ms-2"></img>
+                            <img src="./images/profile.png" class="header-icon icon-profile ms-2"></img>
                             <span class="profile-name ms-2">John Doe</span>
                             <i class="header-icon icon-dropdown"></i>
                         </div>
@@ -362,6 +362,33 @@
         <script src="https://code.jquery.com/jquery-3.6.3.js"
             integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
+        
+        <script>
+            function changeTab(newTab, tabDescClass) {
+                $('.tab-label-div').removeClass("selected")
+                newTab.classList.add("selected")
+                $('.tab-desc').addClass("d-none")
+                $(tabDescClass).removeClass("d-none")
+            }
+
+            $("#toggle-button").on('click', function () {
+                toggleState = !toggleState
+            })
+            let toggleState = true
+            checkAndCollapseSideBar(toggleState)
+            function checkAndCollapseSideBar(collapsed) {
+                if ($(window).width() > 960 & collapsed) {
+                    $('#toggle-button').click()
+                }
+                if ($(window).width() < 960 & !collapsed) {
+                    $('#toggle-button').click()
+                }
+            }
+            $(window).resize(function () {
+                checkAndCollapseSideBar(toggleState)
+            }
+            );
+        </script>
         
 </body>
 </html>
