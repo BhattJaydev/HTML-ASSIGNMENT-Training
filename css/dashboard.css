@@ -578,23 +578,22 @@ table,th,td{
     body {
        margin-left: 500px;
     }
-    .serch__text {
+    .searchText {
         padding: 28px 0 30px 0px; 
         left:820px;
-        top:20px;
+        top:13px;
         position: absolute;
-      
    }
-   .downword__arrow {
+   .down {
         position: absolute;
-        top:15px;
-        left:1948px;
+        top:5px;
+        left:1960px;
         padding: 37px 0 37px 0;
     }
-    .johndoe__text {
+    .profileText {
         position: absolute;
-        top: 24px;
-        left: 1877px;
+        top: 13px;
+        left: 1885px;
         padding: 28px 0 30px 0px; 
     }
 }
@@ -609,6 +608,26 @@ table,th,td{
         position: absolute;
         margin-left: 145px;
     }
+    .searchText {
+        padding: 21px 0 280px 0px; 
+        left:330px;
+        top:13px;
+
+        position: absolute; 
+   }
+   .down{
+        position: absolute;
+        top:-3px;
+        left:1450px;
+        padding: 37px 0 37px ;
+    }
+    .profileText{
+        position: absolute;
+        top: 5px;
+        left: 1377px;
+        padding: 28px 0 30px 0px; 
+    }
+
 }
 
 
