@@ -42,8 +42,8 @@
 }
 .profileText{
     position: absolute;
+    padding-top:16px ;
     font: normal normal normal 16px/21px Roboto;
-    top: 15px;
     left: 1390px;
     padding: 28px 0 30px 0px; 
 }
@@ -102,7 +102,7 @@
 .analysis{
     margin: 32px 0 0 11px;
     width: 60px;
-    height: 21px;
+    height: 22px;
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
@@ -270,6 +270,79 @@
     letter-spacing: 0px;
     color: #3E3E3E;
     opacity: 1;
+}
+.user_text{
+    top: 420px;
+    left: 645px;
+    width: 70px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    color: #ADADAD;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+}
+.focus1{
+    top: 639px;
+    left: 38px;
+    width: 51px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    color: #ADADAD;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+}
+.ps1{
+    top: 639px;
+    left: 436px;
+    width: 82px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    color: #ADADAD;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+}
+.t3{
+    top: 640px;
+    left: 836px;
+    width: 78px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    color: #ADADAD;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+}
+.des{
+    top: 788px;
+    left: 38px;
+    width: 95px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    color: #FF3B3B;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+}
+.username_text_4{
+    top: 788px;
+    left: 640px;
+    width: 80px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    color: #ADADAD;    
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+
 }
 .username{
     margin-right: 80px;
@@ -699,6 +772,35 @@ input[type="checkbox"]#redcb2{
     height: 20px;
 }
 
+@media(min-width:1441px) {
+    body {
+       margin-left: 500px;
+    }
+    .workspace {
+        position: absolute;
+        margin-left: 480px;
+    }
+    .searchText {
+        padding: 21px 0 30px 0px; 
+        left:820px;
+        top:20px;
+        position: absolute; 
+   }
+   .down{
+        position: absolute;
+        top:5px;
+        left:1948px;
+        padding: 37px 0 37px 0;
+    }
+    .profileText{
+        position: absolute;
+        top: 14px;
+        left: 1877px;
+        padding: 28px 0 30px 0px; 
+    }
+}
+
+
 @media (max-width:479px){
     .profileText{
         display: none;
@@ -830,6 +932,6 @@ input[type="checkbox"]#redcb2{
         padding: 14px 0 14px 5px;
         width: 30px;
         height: 30px;
-
     } 
+
 }

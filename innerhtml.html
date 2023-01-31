@@ -21,11 +21,11 @@
 
     <div class="container1">
         <aside>
-            <img src="./images/dashboard-active.svg" alt="dashboard" class="analysisicon">
+            <img src="./images/dashboard-default.svg" alt="dashboard" class="analysisicon">
             <span class="analysis">Dashboard</span><br>
 
             <div class="selectOption">
-                <img src="./images/graph-default.svg" alt="Analysis" class="img_dashboard">
+                <img src="./images/graph-active.svg" alt="Analysis" class="img_dashboard">
                 <span class="dashboard">Analysis</span>
             </div>
 
@@ -61,6 +61,7 @@
             <div class="twoColumn">Two Column</div>
             <div>
                 <input type="text" placeholder="Name" class="txtnm"> 
+                <label for="uname1" class="user_text">Username</label>
                 <input type="text" placeholder="Johndoe" class="txtnm" id="uname1">                 
                 <input type="password" placeholder="Password" class="password">
                 <select name="dropmenu" class="drop" placeholder="Dropdown">
@@ -72,16 +73,21 @@
             </div>
             <div class="threecolumn">Three Column</div>
             <div>
-                <input type="text" class="three1" autofocus>
-                <input type="password" class="three2" placeholder="• • • • • • • • • ">
-                <input type="text" class="three3" placeholder="johndoe">
+                <label for="focus1" class="focus1">Focus</label>
+                <input type="text" class="three1" autofocus id="focus1">
+                <label for="pass1" class="ps1">Password</label>
+                <input type="password" class="three2" id="pass1" placeholder="• • • • • • • • • ">
+                <label for="text3" class="t3">Disabled</label>
+                <input type="text" class="three3" id="text3" placeholder="johndoe">
             </div>
 
             <div class="forth">Four Column</div>
             <div>
-                <input type="text" class="one" placeholder="UI Designer">                  
+                <label for="f1" class="des">Designation</label>
+                <input type="text" class="one" id="f1" placeholder="UI Designer">                  
                 <input type="text" class="two" placeholder="Name">
-                <input type="text" class="three" placeholder="JohnDoe">
+                <label for="f3" class="username_text_4">Username</label>
+                <input type="text" class="three" id="f3" placeholder="JohnDoe">
                 <select name="dropmenu" id="column" class="four">
                     <option value="Dropdown" class="drop4">select</option>
                     <option value="1">Dropdown 1</option>
