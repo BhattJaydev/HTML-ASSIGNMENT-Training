@@ -95,9 +95,15 @@
 }
 
 @media (min-width:1580px){
-    .container_main {
-        margin-left: 140px;        
-      }
+    body{
+        width: 100%;
+        height: auto;
+        bottom: 0px;
+        top: 0px;
+        left: 0;
+        position: absolute;
+        margin-left: 500px;
+    }
 }
 
 @media (max-width:360px){
