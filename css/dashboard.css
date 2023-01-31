@@ -574,7 +574,7 @@ table,th,td{
     }
 }
 
-@media(min-width:1441px) {
+@media(min-width:1580px) {
     body {
        margin-left: 500px;
     }
@@ -598,6 +598,19 @@ table,th,td{
         padding: 28px 0 30px 0px; 
     }
 }
+
+@media (width:1920px){
+    body{
+        width: 100%;
+        height: auto;
+        bottom: 0px;
+        top: 0px;
+        left: 0;
+        position: absolute;
+        margin-left: 145px;
+    }
+}
+
 
 @media (max-width:479px){
     .profileText{
