@@ -93,6 +93,13 @@
     width: 68px;
     height: 20px;
 }
+
+@media (min-width:1580px){
+    .container_main {
+        margin-left: 140px;        
+      }
+}
+
 @media (max-width:360px){
     .container_main{
         display: flex;
@@ -120,9 +127,4 @@
     .register{
         font-size: 20px;
     }
-}
-@media (min-width:1580px){
-    .container_main {
-        margin-left: 140px;        
-      }
 }
