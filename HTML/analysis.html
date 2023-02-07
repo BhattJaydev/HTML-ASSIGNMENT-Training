@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/analysis1.css" rel="stylesheet" type="text/css">
+    <title>Analysis</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto mt-4">
+                <div class="d-flex justify-content-center align-items-center sidebar-top-item mb-4">
+                    <i class=" icon icon-toggle" id="toggle-button">
+                    </i>
+                    <div class="toggle-elements sidebar-company-logo ms-4" id="company-logo"><img
+                            src="./images/header-logo.svg" class="company-logo-img "></div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item"
+                    onclick="window.location.href = '/dashboard.html'">
+                    <i class="icon icon-dashboard "></i>
+                    <div class="toggle-elements sidebar-text" id="dashboard-text"><span
+                            class="sidebar-text-span">Dashboard</span></div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item mt-3 item-selected">
+                    <i class="icon icon-analysis item-selected"></i>
+                    <div class="toggle-elements sidebar-text item-selected" id="analysis-text"><span
+                            class="sidebar-text-span item-selected">Analysis</span></div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item mt-3">
+                    <i class="icon icon-inbox"></i>
+                    <div class="toggle-elements sidebar-text" id="inbox-text"><span
+                            class="sidebar-text-span">Inbox</span></div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item mt-3">
+                    <i class="icon icon-history"></i>
+                    <div class="toggle-elements sidebar-text" id="history-text"><span
+                            class="sidebar-text-span">History</span></div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item mt-3">
+                    <i class="icon icon-users"></i>
+                    <div class="toggle-elements sidebar-text" id="users-text"><span
+                            class="sidebar-text-span">Users</span></div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item mt-3">
+                    <i class="icon icon-maintenance"></i>
+                    <div class="toggle-elements sidebar-text" id="maintenance-text"><span
+                            class="sidebar-text-span">Maintenance</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start align-items-center sidebar-item mt-3">
+                    <i class="icon icon-setting"></i>
+                    <div class="toggle-elements sidebar-text" id="setting-text"><span
+                            class="sidebar-text-span">Setting</span></div>
+                </div>
+            </div>
+            <div class="col mt-4">
+                <div class="row">
+                    <div class="row height d-flex justify-content-start align-items-center p-0">
+
+                        <div class="col-3 col-sm-6 search-col">
+                            <div class="search d-flex align-items-center ms-3">
+                                <i class="icon icon-search"></i>
+                                <input type="text" class="form-control ms-2" placeholder="Search"
+                                    id="search-text-input">
+                            </div>
+                        </div>
+                        <div class="col-auto d-flex justify-content-end ms-auto">
+                            <i class="header-icon icon-notification"></i>
+                        </div>
+                        <div class="col-auto d-flex justify-content-end align-items-center p-0">
+                            <img src="./images/profile.png" class="header-icon icon-profile ms-2"></img>
+                            <span class="profile-name ms-2">John Doe</span>
+                            <i class="header-icon icon-dropdown"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row mt-4">
+
+                    <div class="main-container">
+                        <h2>Analysis</h2>
+                        <div class="m-2 p-2 mt-4">
+
+                            <div class="row">
+                                <h3 class="main-headers">One Column</h3>
+                                <div class="col-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="userFloatingInput"
+                                            placeholder="Username">
+                                        <label for="userFloatingInput">Username</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+
+                                        <select class="form-select form-select-lg" aria-label="Select Options">
+                                            <option selected>Dropdown</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="3" placeholder="Multiple Line"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h3 class="main-headers">Two Column</h3>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="nameFloatingInput"
+                                            placeholder="Name">
+                                        <label for="nameFloatingInput">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="userFloatingInput2"
+                                            placeholder="Username" value="johndoe">
+                                        <label for="userFloatingInput2">Username</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="passwordFloatingInput"
+                                            placeholder="Password">
+                                        <label for="passwordFloatingInput">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="mb-3">
+                                        <select class="form-select form-select-lg" aria-label="Select Options">
+                                            <option selected>Dropdown</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <h3 class="main-headers">Three Column</h3>
+                                <div class="col-12 col-sm-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control is-invalid" id="focusFloatingInput"
+                                            placeholder="Focus">
+                                        <label for="focusFloatingInput">Focus</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="passwordFloatingInput2"
+                                            placeholder="Password" value="abcdef">
+                                        <label for="passwordFloatingInput2">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control dashed-border border-2"
+                                            id="disabledFloatingInput" placeholder="Disabled" value="johndoe" disabled>
+                                        <label for="disabledFloatingInput">disabled</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <h3 class="main-headers">Four Column</h3>
+                                <div class="col-12 col-sm-3">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control is-invalid" id="designationFloatingInput"
+                                            placeholder="Designation" value="UI Designer"
+                                            aria-describedby="designationFloatingInput-Validation">
+                                        <label for="designationFloatingInput">Designation</label>
+                                        <div id="designationFloatingInput-Validation" class="invalid-feedback">
+                                            <p class="ms-3">
+                                                Enter Valid Data
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="nameFloatingInput2"
+                                            placeholder="Name" disabled>
+                                        <label for="nameFloatingInput2">Name</label>
+                                        <div>
+                                            <p class="ms-3 mt-1 disabled-text small-text">
+                                                Enter Your Full name as per ID
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="userFloatingInput3"
+                                            placeholder="Username" value="johndoe">
+                                        <label for="userFloatingInput3">Username</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <div class="mb-3">
+                                        <select class="form-select form-select-lg" aria-label="Select Options" disabled>
+                                            <option selected>Select</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h3 class="main-headers">Other Design Elements</h3>
+                                <div class="fileUpload mt-3">
+                                    <p class="design-elements-headers">File Upload</p>
+                                    <div class="mb-3">
+                                        <label for="file-upload" class="custom-file-upload  rounded-pill">
+                                            <i class="icon d-inline-block icon-upload"></i>
+                                            Upload
+                                        </label>
+                                        <input id="file-upload" type="file" />
+                                        <small class="ms-3">No Item Selected</small>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="design-elements-headers">Radio Button</p>
+                                    <div class="mb-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="inlineRadio1"
+                                                name="myRadio">
+                                            <label class="form-check-label ms-2" for="inlineRadio1">Option 1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="inlineRadio2"
+                                                name="myRadio" checked>
+                                            <label class="form-check-label" for="inlineRadio2">Option 2</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="design-elements-headers">Checkbox</p>
+                                    <div class="mb-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineChkbox1"
+                                                value="option1">
+                                            <label class="form-check-label ms-2" for="inlineChkbox1">Option 1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineChkbox2"
+                                                value="option2" checked>
+                                            <label class="form-check-label" for="inlineChkbox2">Option 2</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <p class="design-elements-headers">Snackbar</p>
+                                    <div class="d-flex flex-wrap">
+                                        <div class="snackbar-div">
+                                            <div class="snackbar snackbar-error d-flex align-items-center">
+                                                <i class="icon d-inline-block icon-error"></i>
+                                                <span class="error-text snackbar-text">This is an Error Message</span>
+                                            </div>
+                                        </div>
+                                        <div class="snackbar-div">
+                                            <div class="snackbar snackbar-info d-flex align-items-center">
+                                                <i class="icon d-inline-block icon-info"></i>
+                                                <span class="info-text snackbar-text">This is an Information
+                                                    Message</span>
+                                            </div>
+                                        </div>
+                                        <div class="snackbar-div">
+                                            <div class="snackbar snackbar-warning d-flex align-items-center">
+                                                <i class="icon d-inline-block icon-warning"></i>
+                                                <span class="warning-text snackbar-text">This is an Warning
+                                                    Message</span>
+                                            </div>
+                                        </div>
+                                        <div class="snackbar-div">
+                                            <div class="snackbar snackbar-success d-flex align-items-center">
+                                                <i class="icon d-inline-block icon-success"></i>
+                                                <span class="success-text snackbar-text">This is an Success
+                                                    Message</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 action-div">
+                                    <p class="design-elements-headers">Call to action</p>
+                                    <div class="btn rounded-pill button-primary">
+                                        <span class="button-text ps-1 pe-1">Primary</span>
+                                    </div>
+                                    <div class="ms-1 btn rounded-pill button-secondary">
+                                        <span class="button-text button-secondary-text ps-1 pe-1">Secondary</span>
+                                    </div>
+                                </div>
+                                <div class="mt-3 tabs-div">
+                                    <p class="design-elements-headers">Tabs</p>
+                                    <div class="d-flex all-tab-label-div mb-3">
+                                        <div class="tab-label-div p-3 selected"
+                                            onclick="changeTab(this, '.first-tab-desc')">
+                                            <span class="tab-label">Tab 1</span>
+                                        </div>
+                                        <div class="tab-label-div p-3" onclick="changeTab(this, '.second-tab-desc')">
+                                            <span class="tab-label">Tab 2</span>
+                                        </div>
+                                        <div class="tab-label-div p-3" onclick="changeTab(this, '.third-tab-desc')">
+                                            <span class="tab-label">Tab 3</span>
+                                        </div>
+                                    </div>
+                                    <p class="tab-desc first-tab-desc">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Obcaecati, velit. Optio
+                                        saepe cupiditate illo ullam adipisci similique fugiat provident commodi enim
+                                        asperiores magnam, quae non perspiciatis quo, ducimus veniam et!
+                                        Corrupti, odio at esse et deleniti quisquam laboriosam cupiditate sequi qui illo
+                                        earum expedita iusto mollitia minus quae inventore odit enim. Eaque, asperiores
+                                        placeat quaerat velit fugiat molestias magnam recusandae.
+                                        Similique quo laborum asperiores quidem molestiae voluptatibus et enim ullam
+                                        ratione, placeat ea. In ex natus repellendus eos reiciendis repellat sequi dolor
+                                        est praesentium. Non beatae labore magnam expedita aspernatur?</p>
+                                    <p class="tab-desc second-tab-desc d-none">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Laboriosam aut perspiciatis est officiis qui sed facilis
+                                        numquam hic maiores eaque! Ab, neque quidem cum inventore eaque tempore dolore
+                                        nesciunt necessitatibus.
+                                        Architecto voluptates placeat unde tempore reprehenderit provident error iste
+                                        modi accusamus nemo! Perspiciatis error, totam nisi ipsa reiciendis quod sint
+                                        voluptatem nobis deleniti, magni et nam? Soluta inventore fugit vel!
+                                        Voluptatibus quis, mollitia dolor at sit autem dolores hic similique quia,
+                                        doloremque quas nihil nisi temporibus laborum totam deleniti natus laboriosam
+                                        numquam magni nesciunt enim dolorum et recusandae? Ad, delectus?
+                                        Error officia deserunt qui pariatur, inventore excepturi vitae blanditiis
+                                        voluptas animi ea ratione, maiores, voluptatum possimus. Ex, minima cumque
+                                        placeat iure explicabo, sapiente repellendus consequuntur illo sed facere eius
+                                        delectus.</p>
+                                    <p class="tab-desc third-tab-desc d-none">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Eligendi error neque omnis, dolor velit porro fugit impedit
+                                        nulla labore at. Id cupiditate quam ad error repellendus consectetur
+                                        perspiciatis impedit et.
+                                        Adipisci reiciendis dicta reprehenderit saepe quibusdam aperiam impedit ex
+                                        dolorum rem, cum ut est id numquam, ad inventore? Illum maxime autem tempora
+                                        nulla, eaque ratione! Quae fugiat in iure laborum!
+                                        Totam, deserunt. Vero ipsum labore ab neque dolore temporibus veritatis nihil
+                                        dignissimos adipisci suscipit corporis esse recusandae atque non doloremque
+                                        ipsam molestias nisi, commodi ex asperiores, eligendi, similique facilis harum.
+                                        At, porro. Laborum ut nulla, quis rerum vel beatae id repudiandae, delectus quas
+                                        provident sint repellendus libero reprehenderit. Dolorum molestias quisquam
+                                        consequuntur in, optio nemo ratione eligendi voluptates aut esse.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        
+        <script>
+            function changeTab(newTab, tabDescClass) {
+                $('.tab-label-div').removeClass("selected")
+                newTab.classList.add("selected")
+                $('.tab-desc').addClass("d-none")
+                $(tabDescClass).removeClass("d-none")
+            }
+            $("#toggle-button").on('click', function () {
+                toggleState = !toggleState
+            })
+            let toggleState = true
+            checkAndCollapseSideBar(toggleState)
+            function checkAndCollapseSideBar(collapsed) {
+                if ($(window).width() > 960 & collapsed) {
+                    $('#toggle-button').click()
+                }
+                if ($(window).width() < 960 & !collapsed) {
+                    $('#toggle-button').click()
+                }
+            }
+            $(window).resize(function () {
+                checkAndCollapseSideBar(toggleState)
+            }
+            );
+        </script>
+        
+</body>
+</html>
